@@ -1,0 +1,180 @@
+.navbar{
+	background-color:#23282a!important;
+	
+}
+.navbar ul{
+	margin-right:180px!important;
+}
+.navbar ul li a{
+	color:white!important;
+	margin-right:30px!important;
+	font-size: 22px;
+}
+.navbar ul li a:hover{
+	color:#ffd405!important;
+}
+
+.navbar img{
+	height:80px;
+	width:250px;
+	position: relative;
+	left:5%;
+
+}
+.navbar button{
+	  background-color:#ffd405!important;
+	  color:black!important; 
+}
+.bgimg{
+	background-image: url("../image/background1.jpg");
+	background-size:100% 100%;
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:100vh;
+}
+.headerset{
+	height:100vh;
+	position: relative;
+	background-color: rgb(0,0,0,0.2);
+	
+
+}
+.headerset h1{
+	font-size:120px;
+	font-weight: bold;
+	color: white!important;
+	position:absolute;
+	top:30%;
+	left:38%;
+}
+.headerset h3{
+	font-size:60px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 1px;
+	color: white!important;
+	position:absolute;
+	font-family:sans-serif;
+	top:52%;
+	left:5%;
+}
+.scrolling-box {
+  background-color:white;
+  display: block;
+  text-align: center;
+  width:100%;
+}
+/*========
+services
+*/
+.comman-question{
+	padding:70px;
+}
+.comman-question h1{
+    font-size:70px;
+	text-align: left;
+
+}
+.comman-question p{
+	font-size: 20px;
+	text-align: left;
+}
+.section-bg2{
+	background-color:white;
+}
+.section-bg2 h3{
+	color:black;
+	font-size:30px;
+}
+.section-bg2 p{
+	color:black;
+	font-size:20px;
+	margin-top:20px;
+}
+/*========
+ End services
+*/
+/*========
+ Prices page
+*/
+#price{
+	padding-top:60px;
+	padding-bottom:40px;
+}
+/*========
+ End Prices page
+*/
+.footer{
+	background-color:#23282a!important;
+	height:80px;
+}
+.footer span{
+	position: relative;
+	font-size: 20px;
+	color: #caaa58;
+	top:32%;
+}
+/*Responsive*/
+@media screen and (max-width:768px){
+	.navbar ul{
+	margin-right:200px!important;
+}
+.navbar ul li a{
+	color:white!important;
+	margin-right:20px!important;
+	font-size:18px;
+}
+.navbar img{
+	left:0%;
+
+}
+.navbar button{
+	  background-color:#ffd405!important;
+	  color:black!important;
+	  position: absolute;
+	  right:2%!important; 
+}
+.headerset h1{
+	font-size:120px;
+	top:30%;
+	left:30%;
+}
+.headerset h3{
+	font-size:50px;
+	top:56%;
+	left:2%;
+}
+
+}
+@media screen and (max-width:414px){
+	
+.navbar ul{
+	margin-right:200px!important;
+}
+.navbar ul li a{
+	color:white!important;
+	margin-right:20px!important;
+	font-size:18px;
+}
+.navbar img{
+	left:0%;
+
+}
+.navbar .adi{
+	  position: absolute;
+	  bottom:2%!important; 
+}
+.headerset h1{
+	font-size:100px;
+	top:30%;
+	left:20%;
+}
+.headerset h3{
+	font-size:40px;
+	top:56%;
+	left:2%;
+}
+
+
+}
